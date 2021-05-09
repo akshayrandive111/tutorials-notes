@@ -1,0 +1,22 @@
+Spring Fundamentals:-
+
+Development with or without EJB
+Development without application server, tomcat is web server
+
+Problem solved by Spring:-
+1. Testability
+2. Scalability
+3. Maintainability
+4. Complexity
+5. Business Focus:- e.g. For single select query we need to add jdbc connection, try catch block , finally block .
+but this thing can be managed by jdbctemplate in single line
+
+
+applicationContext.xml replaced by @Configuration
+
+Bean scopes:-
+1. Singleton:- default scope
+2. Prototype:- unique for every request, opposite if singleton
+3. request:- bean per http request
+4. session:- bean till the time session is alive
+5. global:- alive till application undeployed or rebooted

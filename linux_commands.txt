@@ -1,0 +1,61 @@
+#########
+
+man wget
+wget --help | less
+less .bashrc
+ls
+ls -a :- displays all files :- same as -> ls --all
+. before filename indicates file is hidden
+
+ls -l :- file details with permission
+ls -lh :- file details with size of file
+ls -lht :- display file in descending order logically
+history :- display past command
+touch akshay
+touch single-file-with-multiple-word
+
+#########
+
+cd /home/ubuntu/scripts
+pwd
+mkdir data
+nano file1 => ctrl+x /y
+touch file2 file3 file 4
+mkdir newdata
+cp file1 newdata/
+cp file* newdata/
+cd newdata
+touch file11 file12
+rm file?
+ls
+rm file*
+mv ../file* .
+ls
+rm *
+cd ../
+rmdir newdata/
+
+###########
+
+locate adduser
+cat /etc/group | grep ubuntu >> newfile1  :- append text to end of file
+cat /etc/group | grep ubuntu > newfile1  :- overwrite existing text 
+head /etc/group :- print first 10 lines
+tail /etc/group  :- print last 10 lines
+echo "hello" >> myfile1.txt
+wget pluralsight.comm 2> errorfile.txt
+stdin = 0
+stdout = 1
+stderr = 2
+tar xzf latest.tar.gz  x= extract z= zipped file f = filename is follwed after it
+tar czf newarchiev.tar.gz foldertozipped/
+tar cf newarchieve.tar foldertobezipped/
+gzip newarchieve.tar
+zip newname.zip *
+
+#########
+
+lsusb
+lspci
+lshw
+
